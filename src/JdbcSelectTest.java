@@ -6,7 +6,7 @@ public class JdbcSelectTest {  // Save as "JdbcSelectTest.java"
       try (
          // Step 1: Allocate a database "Connection" object
          Connection conn = DriverManager.getConnection(
-               "jdbc:mysql://localhost:3306/ebookshop", "Divine", "ccis"); // MySQL
+               "jdbc:mysql://localhost:3306/ebookshop", "Dibayn", "ccis"); // MySQL
  
          // Step 2: Allocate a "Statement" object in the Connection
          Statement stmt = conn.createStatement();
@@ -32,7 +32,7 @@ public class JdbcSelectTest {  // Save as "JdbcSelectTest.java"
          }
          System.out.println("Total number of records = " + rowCount);
  
-      } catch(Exception ex) {
+      } catch(SQLException ex) {
          ex.printStackTrace();
       }
       // Step 5: Close the resources - Done automatically by try-with-resources
