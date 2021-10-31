@@ -1,0 +1,7 @@
+2019-10-21T05:51:48.223755Z 5 [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: a<i*y,fh*45T new pass: ccis
+
+2019-10-21T05:52:37.491077Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+
+new user:
+username: Divine
+pass: ccis
